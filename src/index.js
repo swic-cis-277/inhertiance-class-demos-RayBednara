@@ -18,7 +18,7 @@ console.log(steve.info);
 
 const ares = new Dog({
   species:"dog",
-  diet = ["dog food", "steak"],
+  diet: ["dog food", "steak"],
   size:0,
   sound:"woof",
   speed:1,
@@ -31,13 +31,12 @@ console.log(ares.speak());
 
 const michael = new Turtle({
   species: "turtle",
-  diet = ["lettuce"],
+  diet: ["lettuce"],
   size: 0,
-  sound= "silence",
+  sound: "silence",
   speed: 0,
   name: "Michael",
   help:1
 })
 
-console.log(michael.info);
-console.log(michael.needsHelp());
+console.info(michael.info);
